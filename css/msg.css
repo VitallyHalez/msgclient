@@ -1,0 +1,55 @@
+/* #chat {
+  
+} */
+#allmsg {
+  min-height: 50vw;
+  max-height: 50vw;
+  overflow: auto;
+}
+
+.btn{
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border-width: 1px 1px 1px 2px;
+  background-color: rgb(120, 120, 125);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-width: 1px 1px 1px 2px;
+  background-color: rgb(140, 140, 140);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #343a40;
+}
+
+::-webkit-scrollbar-track:hover {
+  border-left: solid 1px #17a2b8;
+}
+@media only screen and (min-width: 480px) {
+  /* Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее. */
+}
+
+@media only screen and (min-width: 768px) {
+  /* Планшеты в режиме portrait. */
+}
+
+@media only screen and (min-width: 992px) {
+  /* Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп. */
+  #allmsg {
+    min-height: 30vw;
+    max-height: 30vw;
+  }
+}
+
+@media only screen and (min-width: 1382px) {
+  /* Десктоп с большими разрешениями, телевизоры. */
+}
