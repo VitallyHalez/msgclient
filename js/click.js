@@ -2,7 +2,7 @@ btnmsg.onclick = () => {
     if(inpmsg.value == "")
         return;
     AppendMessage(inpmsg.value, null);
-    //socket.send(JSON.stringify( {msg: inpmsg.value, method:'msgtoserver'} ));
+    socket.send(JSON.stringify( {msg: inpmsg.value, method:'msgtoserver'} ));
     inpmsg.value = "";
 }
 
