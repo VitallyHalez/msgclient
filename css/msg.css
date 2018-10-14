@@ -1,9 +1,12 @@
-/* #chat {
-  
-} */
-#allmsg {
-  min-height: 50vw;
-  max-height: 50vw;
+#chat {
+  margin-top: 1em;
+  min-height: 40vw;
+  max-height: 40vw;
+}
+
+#messages {
+  min-height: 25vw;
+  max-height: 25vw;
   overflow: auto;
 }
 
@@ -44,10 +47,10 @@
 
 @media only screen and (min-width: 992px) {
   /* Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп. */
-  #allmsg {
+  /* #allmsg {
     min-height: 30vw;
     max-height: 30vw;
-  }
+  } */
 }
 
 @media only screen and (min-width: 1382px) {
